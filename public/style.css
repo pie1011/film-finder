@@ -1,6 +1,8 @@
 body {
-    background-color: #7f0920;
+    background-color: #90cea1;
     color: #0a0408;
+    font-family: 'Questrial', sans-serif;
+
 }
 
 #appTitle {
@@ -63,4 +65,9 @@ img#moviePoster {
 #dislikeBtn {
     background-color: #c74a4a;
     color: #910000;
+}
+
+#tmdb-logo {
+    width: 10vw;
+    max-width: 100px;
 }
