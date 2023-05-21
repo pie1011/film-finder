@@ -1,4 +1,5 @@
 // // PROVIDED BY CODECADEMY // //
+// //   - UPDATED BY ME -   // //
 
 // Populate dropdown menu with all the available genres
 const populateGenreDropdown = (genres) => {
@@ -22,6 +23,8 @@ const getSelectedGenre = () => {
 const showBtns = () => {
     const btnDiv = document.getElementById('likeOrDislikeBtns');
     btnDiv.removeAttribute('hidden');
+    const movieCard = document.getElementById('movieInfo');
+    movieCard.removeAttribute('hidden');
 };
 
 // Clear the current movie from the screen
@@ -51,14 +54,18 @@ const createMoviePoster = (posterPath) => {
     const posterImg = document.createElement('img');
     posterImg.setAttribute('src', moviePosterUrl);
     posterImg.setAttribute('id', 'moviePoster');
+
+    // My updates:
+    posterImg.setAttribute('class', 'card-img-top');
   
     return posterImg;
 };
 
 // Create HTML for movie title
 const createMovieTitle = (title) => {
-    const titleHeader = document.createElement('h1');
+    const titleHeader = document.createElement('h3'); // Updated
     titleHeader.setAttribute('id', 'movieTitle');
+    titleHeader.setAttribute('class', 'card-title');
     titleHeader.innerHTML = title;
   
     return titleHeader;
@@ -68,6 +75,7 @@ const createMovieTitle = (title) => {
 const createMovieOverview = (overview) => {
     const overviewParagraph = document.createElement('p');
     overviewParagraph.setAttribute('id', 'movieOverview');
+    overviewParagraph.setAttribute('class', 'card-text');
     overviewParagraph.innerHTML = overview;
   
     return overviewParagraph;

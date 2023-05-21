@@ -29,10 +29,6 @@ body {
     clear:  both;
 }
 
-#moviePoster, #movieText {
-    width:  50%;
-    float:  left;
-}
 
 img#moviePoster {
     width:  100%;
@@ -43,35 +39,12 @@ img#moviePoster {
 
 #movieText {
     font-family: 'Questrial';
-    color: #FEFBEA;
-    line-height: 1.25;
 }
 
 #movieTitle, #movieOverview {
     padding:  32px;
 }
-/* 
-#playBtn {
-    margin-top: 20px;
-    font-size: 25px;
-    padding: 7px 10px;
-    border-radius: 10px;
-    border-style: none;
-    background-color: #B97828;
-    color: #fdc238;
-    cursor:  pointer;
-} */
 
-label {
-    display: block;
-    font-size: 35px;
-    margin-bottom: 5px;
-}
-
-select {
-    width: 200px;
-    height: auto;
-}
 
 #likeOrDislikeBtns {
     text-align: center;
@@ -79,10 +52,6 @@ select {
 }
 
 #likeBtn, #dislikeBtn {
-    padding: 15px 25px;
-    font-size: 25px;
-    border-radius: 12px;
-    border-style: none;
     cursor:  pointer;
 }
 
