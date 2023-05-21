@@ -1,9 +1,3 @@
 # Film Finder
 
-## Files
-
-
-## Resources
-
-
-## Install & Run
+Practice including Codecademy's asynchronous JavaScript and API project.
