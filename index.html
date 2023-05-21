@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="my-5 shadow">
+    <div class="my-5 shadow-lg">
         <div class="p-5 text-center bg-body-tertiary">
 
             <!-- Header -->
@@ -24,11 +24,11 @@
             </header>
 
             <!-- Main Section -->
-            <section class="container py-5 bg-body shadow">
+            <section class="container py-5 bg-body shadow-lg">
                 <form id="genreForm">
                 <p class="col-lg-8 mx-auto lead">
                     <label>Choose a genre:</label>
-                    <select class="form-control" name="genres" id="genres">
+                    <select class="form-control form-select" name="genres" id="genres">
                     </select>
                 </p>
                 </form>
@@ -42,21 +42,16 @@
                     <button id="dislikeBtn"><i class="fa-solid fa-thumbs-down"></i></button>
                 </div>
             </section>
+
+            <footer class="container py-5">
+                <p class="col-lg-8 mx-auto lead">
+                Source data provided by:
+                </p>
+                <a href="https://www.themoviedb.org/" target="_blank"><img class="w-25" src="public/images/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"></a>
+            </footer>
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-    <header class="container-fluid align-center">
-    </header>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
